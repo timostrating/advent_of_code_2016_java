@@ -1,4 +1,4 @@
-package day3;
+package day03;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,10 +9,10 @@ import java.util.regex.Pattern;
 /**
  * Created by Sneeuwpopsneeuw on 15-Dec-16.
  */
-public class part1 {
-    public static void main(String[] args) throws IOException{ new part1().start(); }
+public class Part1 {
+    public static void main(String[] args) throws IOException{ new Part1().start(); }
     public void start() throws IOException {
-        File inFile = new File ("src/day3/input.txt");
+        File inFile = new File ("src/day03/input.txt");
         Scanner sc = new Scanner (inFile);
         triangle tri = new triangle(5, 10, 25);
         int output = 0;
